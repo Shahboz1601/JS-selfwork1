@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.logo{
+    margin-bottom: 20px;
+}
+
+/* index html  */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#0b2476;
+
+}
+
+#if {
+    margin-bottom: 15px;
+    font-size: 35px;
+    color:white;
+
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.btn1 {
+    width: 350px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    color: azure;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+/* index html  */
+
+/* index1 html  */
+.container1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#0b2476;
+    /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+}
+
+
+
+.items {
+    width: 500px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.traps_forms {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trap_form1 {
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trap_form2 {
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trap_form3 {
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trap_form4 {
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trap_form5 {
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trap_form6 {
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trap_form7 {
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-form-field1 {
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    margin: 5px;
+    background-color:aquamarine;
+    opacity: 0.7;
+}
+
+.login-form-field2 {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    background-color:aquamarine;
+    opacity: 0.7;
+}
+
+.login-form-field3 {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+     background-color:aquamarine;
+    opacity: 0.7;
+}
+
+.digit {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    background: rgb(66, 158, 244);
+    background: linear-gradient(0deg, rgb(68, 165, 255) 0%, rgba(45, 253, 244, 1) 100%);
+}
+
+.texts {
+    font-size: 25px;
+    margin: 5px;
+    color:#ffffff;
+}
+
+#General-formulas1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#dom1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#dom4 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width:700px) {
+    .container1 {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+    .container{
+        text-align: center;
+        height: auto;
+    }
+
+    .items {
+        margin: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trap_forms {
+        margin: 0;
+    }
+
+    #if{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 27px;
+    }
+    .labels{
+        text-align: center;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .photos{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* index1 html  */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(6, 6, 116);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.card {
+    background-color:#ffffff;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .photos{
+    border:2px solid rgb(11, 197, 197);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .photos img{
+    width: 300px;
+    height: 215px;
+  }
+  
+ .card button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color:green;
+  }
+
+.natija{
+    color:#ffffff;
+    
+}
+
+
